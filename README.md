@@ -1,3 +1,5 @@
+Proyecto para ayudar a mi mano derecha en su clinica, es mi primer proyecto en REACT.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
