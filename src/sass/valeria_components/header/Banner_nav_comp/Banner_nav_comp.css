@@ -1,5 +1,8 @@
 .logoVS {
   width: 50px !important;
   height: 50px !important;
-  background-color: aquamarine !important;
+}
+
+#btn_toogle {
+  border: none !important;
 }/*# sourceMappingURL=Banner_nav_comp.css.map */
