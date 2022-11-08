@@ -18,7 +18,8 @@ const Card_x_service = ({ ico_card = null, title_card = "Titulo", desc_card = te
                         : <span> Icono</span>
                     }
                 </Container>
-                <Card.Title>{title_card}</Card.Title>
+                {/* <h3 className="card_titleText">{title_card}</h3> */}
+                <Card.Title className="">{title_card}</Card.Title>
                 <Card.Text>
                     {desc_card}
                 </Card.Text>

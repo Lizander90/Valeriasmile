@@ -9,9 +9,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Banner_nav_comp = ({ logotipo = null }) => {
     return <>
-        <Navbar bg="pink" expand="md" id="headerTOPnav"> 
-            
-            <Container >
+        <Navbar expand="md" id="headerTOPnav">
+
+            <div className="cont_banner_header container-fluid d-flex justify-content-betwen">
+
                 <Navbar.Brand href="#home" >
                     {(logotipo)
                         ? <img src={logotipo} alt='logo'></img>
@@ -22,7 +23,7 @@ const Banner_nav_comp = ({ logotipo = null }) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" id="btn_toogle" />
 
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" >
+                    <Nav className="mx-auto" >
                         <Nav.Link href="#home" className="navlink_header">INICIO</Nav.Link>
                         <Nav.Link href="#link1" className="navlink_header">SERVICIOS</Nav.Link>
                         <Nav.Link href="#link2" className="navlink_header">CLINICA</Nav.Link>
@@ -31,7 +32,7 @@ const Banner_nav_comp = ({ logotipo = null }) => {
                     </Nav>
                 </Navbar.Collapse>
 
-            </Container>
+            </div>
         </Navbar>
     </>
 }

@@ -1,6 +1,3 @@
 @import 'valeria_components/header/Banner_nav_comp/Banner_nav_comp.css';
 @import 'valeria_components/header/Banner_nav_comp/Servicio_cards.css';
-.bi {
-  font-size: 5rem;
-  color: rgb(241, 241, 241) !important;
-}/*# sourceMappingURL=app.css.map */
+@import 'valeria_components/header/Banner_nav_comp/Card_x_service.css';/*# sourceMappingURL=app.css.map */

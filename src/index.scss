@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap");
 
-$liberty: rgb(218, 43, 43);
+$normal_text_color: rgb(66, 66, 66);
 $cyan-process-3: rgba(48, 181, 231, 1);
 $violet-blue-crayola: rgba(110, 119, 176, 1);
 $cyan-process: rgba(23, 178, 237, 1);
@@ -19,8 +19,8 @@ $theme-colors: (
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Poppins",'Quicksand' !important;
+  // font-family: "Poppins",'Quicksand' !important;
+  // font-family: "Poppins",'Quicksand' !important;
 }
-
 
 

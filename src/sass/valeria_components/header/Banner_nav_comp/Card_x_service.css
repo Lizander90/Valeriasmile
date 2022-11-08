@@ -1,10 +1,29 @@
+#serviciosHeader {
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+}
 #serviciosHeader .bi {
   text-align: center;
   font-size: 5rem;
-  color: rgb(208, 11, 11) !important;
+  color: whitesmoke !important;
 }
-#serviciosHeader div.iono_header.d-flex.container {
-  width: 200px;
-  height: 200px;
-  background-color: aqua !important;
+#serviciosHeader div .iono_header.d-flex.container {
+  width: 100px;
+}
+#serviciosHeader .card-title {
+  text-align: center;
+}
+#serviciosHeader .h5 {
+  color: whitesmoke !important;
+  font-weight: bold !important;
+  font-family: "Quicksand";
+}
+#serviciosHeader .card-text {
+  color: whitesmoke !important;
+  font-weight: lighter !important;
+  font-family: "Poppins";
+}
+#serviciosHeader:hover {
+  cursor: pointer !important;
+  transform: scale(1.02);
 }/*# sourceMappingURL=Card_x_service.css.map */

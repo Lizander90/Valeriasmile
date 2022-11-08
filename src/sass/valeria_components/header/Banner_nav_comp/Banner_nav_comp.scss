@@ -1,12 +1,49 @@
 $blue-pigment: rgba(42, 56, 143, 1);
 
 .logoVS {
-  width: 50px !important;
-  height: 50px !important    ;
+  // width: 50px !important;
+  // height: 50px !important    ;
 }
 
-#headerTOPnav {
+#basic-navbar-nav {
+  gap: 50px !important;
 }
-#btn_toogle {
+div .cont_banner_header {
+  // background-color: aqua !important;
+}
+
+.navbar-toggler {
   border: none !important;
+
+  // cuando el toogler no esta desplegado
+  &.collapsed {
+    // box-shadow: 4px 5px 9px rgba(0, 0, 0, 0.6);
+  }
+}
+
+.navlink_header {
+  color: $blue-pigment;
+  font-weight: bolder;
+  font-family: "quicksand";
+  margin-inline: 40px;
+  transition: all 0.2s ease-in-out;
+
+  &.active {
+    // width: 100%;
+    border-radius: 10px;
+    background-color: $blue-pigment !important;
+    color: whitesmoke !important;
+    box-shadow: 2px 2px 5px rgba($blue-pigment, 0.5);
+  }
+  &:hover {
+    color: $blue-pigment;
+    border-radius: 10px !important;
+    // color: whitesmoke !important;
+    transform: scale(1.05);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
+    // background-color: $blue-pigment !important;
+  }
+  &:focus {
+    transform: scale(1);
+  }
 }
