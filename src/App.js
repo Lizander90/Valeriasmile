@@ -2,17 +2,28 @@ import './sass/app.css';
 import Banner_nav_comp from './sass/valeria_components/header/Banner_nav_comp/Banner_nav_comp';
 import Carrusel_head_comp from './sass/valeria_components/header/Banner_nav_comp/Carrusel_head_comp';
 
-import Carrusel from './assets/recursos'
+import images_locals_res from './assets/recursos'
 import Servicio_cards from './sass/valeria_components/header/Banner_nav_comp/Servicio_cards';
 
+import img1C from './assets/CARRUSEL1.JPG';
+import { Container } from 'react-bootstrap';
+
 function App() {
+
+  const carrusel_img_list = [
+    img1C,
+    img1C,
+    img1C
+  ];
+  // console.log(carrusel_img_list);
   return (
     <div className="App">
+      <Banner_nav_comp logotipo={images_locals_res.logoVS}></Banner_nav_comp>
+      <Container fluid>
+        <Carrusel_head_comp />
+        <Servicio_cards />
+      </Container>
 
-      <Banner_nav_comp logotipo={Carrusel.logoVS}></Banner_nav_comp>
-
-      <Carrusel_head_comp></Carrusel_head_comp>
-      <Servicio_cards />
       <br />
       {/* <img src={Carrusel.logoVS}></img> */}
 

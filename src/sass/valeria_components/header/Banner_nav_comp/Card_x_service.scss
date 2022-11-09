@@ -1,6 +1,10 @@
+$violet-blue-crayola: rgba(110, 119, 176, 1);
+
 #serviciosHeader {
   transition: all 0.2s ease-in-out;
   box-shadow: none;
+  background-color: $violet-blue-crayola !important;
+  border: none;
   .bi {
     text-align: center;
     font-size: 5rem;

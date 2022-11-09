@@ -9,7 +9,7 @@ const textAlt = "Dental is a dental practice located just off the N11  in Booter
 
 const Card_x_service = ({ ico_card = null, title_card = "Titulo", desc_card = textAlt }) => {
     return <>
-        <Card bg="blue" border='blue' id="serviciosHeader">
+        <Card id="serviciosHeader">
             {/* <Card.Header as="h5">Featured</Card.Header> */}
             <Card.Body>
                 <Container className='iono_header d-flex'>

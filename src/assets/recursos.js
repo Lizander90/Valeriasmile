@@ -6,8 +6,8 @@ import carrusel4 from './CARRUSEL4.JPG'
 
 export default {
     "logoVS": logoVS,
-    "carrusel1": carrusel1,
-    "carrusel2": carrusel2,
-    "carrusel3": carrusel3,
-    "carrusel4": carrusel4
+    "img1_carrusel": carrusel1,
+    "img2_carrusel": carrusel2,
+    "img3_carrusel": carrusel3,
+    "img4_carrusel4": carrusel4
 }
