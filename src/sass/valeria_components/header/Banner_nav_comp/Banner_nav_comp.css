@@ -2,6 +2,11 @@
   gap: 50px !important;
 }
 
+.logoVS {
+  width: 144px !important;
+  height: 33px !important;
+}
+
 .navbar-toggler {
   border: none !important;
 }

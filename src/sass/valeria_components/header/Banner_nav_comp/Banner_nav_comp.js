@@ -15,7 +15,7 @@ const Banner_nav_comp = ({ logotipo = null }) => {
 
                 <Navbar.Brand href="#home" >
                     {(logotipo)
-                        ? <img src={logotipo} alt='logo'></img>
+                        ? <img src={logotipo} alt='logo' className='logoVS'></img>
                         : <div> Valeria Smile</div>
                     }
                 </Navbar.Brand>
