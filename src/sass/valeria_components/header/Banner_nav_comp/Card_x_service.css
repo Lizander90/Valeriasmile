@@ -1,7 +1,7 @@
 #serviciosHeader {
   transition: all 0.2s ease-in-out;
   box-shadow: none;
-  background-color: rgb(110, 119, 176) !important;
+  background-color: #47B5FF !important;
   border: none;
 }
 #serviciosHeader .bi {
