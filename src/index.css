@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap"); /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -10939,4 +10939,5 @@ textarea.form-control-lg {
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Quicksand" !important;
 }/*# sourceMappingURL=index.css.map */

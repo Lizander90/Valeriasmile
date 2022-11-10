@@ -3,10 +3,6 @@ import Card from 'react-bootstrap/Card';
 const textAlt = "Dental is a dental practice located just off the N11  in Booterstown with ample parking directly outside. We specialise in treating toothache (root canal treatment / Endodontics) and";
 
 
-
-
-
-
 const Card_x_service = ({ ico_card = null, title_card = "Titulo", desc_card = textAlt }) => {
     return <>
         <Card id="serviciosHeader">

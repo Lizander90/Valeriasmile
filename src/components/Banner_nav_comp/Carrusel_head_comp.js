@@ -1,9 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import recursos from '../../../../assets/recursos';
-
-import image1 from './../../../../../src/assets/CARRUSEL1.JPG';
-
+import recursos from '../../assets/recursos';
 
 const Carrusel_head_comp = (list_imag) => {
 
