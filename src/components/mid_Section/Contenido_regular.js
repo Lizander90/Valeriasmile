@@ -29,7 +29,7 @@ const Contenido_regular = ({ tituloSection = "", contSection = contSec }) => {
                                 <Card.Text>
                                     {contSection}
                                 </Card.Text>
-                                <Button onClick={() => sendWhatsApp()} variant="light" id="btn_agendar_trans"> AGENDAR AHORA</Button>
+                                <Button onClick={() => sendWhatsApp()} variant="light" className='buttonWhatsapp' id="btn_agendar_trans"> AGENDAR AHORA</Button>
                             </Card.Body>
                         </div>
                         <div className='col-lg-6'>

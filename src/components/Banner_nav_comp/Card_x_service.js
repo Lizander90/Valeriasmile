@@ -1,3 +1,8 @@
+//iconos
+import {IconContext} from 'react-icons';
+
+// import {}
+
 import { Container } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 const textAlt = "Dental is a dental practice located just off the N11  in Booterstown with ample parking directly outside. We specialise in treating toothache (root canal treatment / Endodontics) and";

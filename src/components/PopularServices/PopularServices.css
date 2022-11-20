@@ -1,0 +1,27 @@
+#Container-PopularServices {
+  background-color: 0 !important;
+}
+#Container-PopularServices h3.titleSection {
+  font-family: Quicksand !important;
+  color: #666;
+  text-align: center !important;
+  margin: 20px 0 !important;
+}
+#Container-PopularServices span {
+  color: rgb(42, 56, 143) !important;
+  margin-right: 30px;
+}
+#Container-PopularServices ul.ul-list-popularService li {
+  gap: 50px !important;
+  list-style: none !important;
+  color: #666;
+  font-family: "Poppins" !important;
+  font-size: x-large !important;
+  font-weight: 200;
+  transition: all 0.3s ease-in-out;
+}
+#Container-PopularServices ul.ul-list-popularService li:hover {
+  cursor: pointer;
+  color: rgb(42, 56, 143) !important;
+  transform: translateX(10px) !important;
+}/*# sourceMappingURL=PopularServices.css.map */
